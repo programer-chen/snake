@@ -51,7 +51,7 @@ export default class GameControl {
         }
         catch (error) {
             this.isLive = false;
-            alert(error.message + " GAME OVER!")
+            alert("GAME OVER!")
         }
 
         if (this.isLive && !this.isPuash) {
